@@ -1,0 +1,68 @@
+ul#nav>li.item$*4>a(Item$)
+select#month[name=month]>option[value="$"]*12>{$月}
+html:5
+ 按^E输入
+http://bbs.houdunwang.com/forum-105-1.html
+
+数据库配置
+数据库主机 	
+数据库用户 	
+数据库密码 	
+数据表前缀 	
+数据库名称 	数据库名称不能为空DB_01
+管理员初始密码
+管理员 	
+密　码 	
+确认密码 	
+网站设置
+网站名称 	
+站长邮箱 	
+安装测试体验数据
+初始化数据体验包 	安装初始化数据进行体验
+www.houdunwang/1.html 根本没有PHP参与
+www.houdunwang/1.PHP php module
+伪静态：
+www.houdunwang/1.html xx.php?a=sd&sdf=334 访问动态脚本  url地址访问服务器动态地址
+
+1 : 把表创建出来
+2：创建应用 
+3： 配置好数据库连接
+4 ：执行一次find()
+5: 出现结果！OK!
+
+use v5;
+alter table news rename hd_news;
+create table hd_category(cid smallint primary key auto_increment,cname char(30)) charset utf8;
+charset utf8;
+use v5;
+show tables;
+DESCRIBE hd_news;
+DESCRIBE hd_category;
+dos命令下：
+cd 3
+mysqldump -uroot -p v5>v5.sql
+反过来操作
+记事本打开v5.sql文件
+ctrl+a全选
+dos下www\v5\3>文件夹粘贴，粘贴前。要先mysql一下
+
+
+
+"route"=>array(
+'/^show.html$/'=>'News/show',
+'/^(\w+)$/'=>'User/show/username=#1',
+	)
+
+
+**********************************************
+www.houdunwang.com/1.html 根本没有PHP参与
+1.js/1.jpg
+www.houdunwang.com/1.php  php module
+www.houdunwang.com/1.html  xx.php?a=sd&sdf=334搜索引擎喜欢，URL更美观真正还是动态。
+INSERT INTO `v5`.`hd_news` (`id`, `title`, `content`) VALUES (NULL, '第四课(2014/1/10)', '使用HDUI快速完成自动验证
+数据表单令牌安全策略
+自动完成处理
+自动验证处理');
+********************************************************
+http://localhost/xyq/3/
+describe news;

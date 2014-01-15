@@ -1,0 +1,108 @@
+csdn会员注册
+232119349@qq.com
+weirenliao
+jw8and2jq0
+u013289829 您好
+
+http://code.google.com/p/msysgit/downloads/list?q=full+installer+official+git
+https://github.com/xyq888/test
+
+TortoiseGit可以下载中文包，可翻译，但是要先装msysgit
+Mou /markdownpad
+$ git clone http://github.com/houdunwangxj/v5.git
+
+[语法](http://markdownpad.com
+https://github.com/houdunwangxj/v5
+http://windows.github.com/
+
+http://windows.github.com/
+
+https://github-windows.s3.amazonaws.com/GitHubSetup.exe
+
+******************************************
+
+Wamp
+
+下载地址：http://www.wampserver.com/en/
+
+Sublime Text
+
+下载地址：http://www.sublimetext.com/
+
+GitHub for windows
+
+下载地址：http://windows.github.com/
+
+MsysGit
+
+下载地址：http://msysgit.googlecode.com/files/Git-1.8.4-preview20130916.exe
+
+MarkdownPad
+
+下载地址：http://www.markdownpad.com/
+ 本节课程需要到软件
+
+Wamp
+
+下载地址：http://www.wampserver.com/en/
+
+Sublime Text
+
+下载地址：http://www.sublimetext.com/
+
+GitHub for windows
+
+下载地址：http://windows.github.com/
+
+MsysGit
+
+下载地址：http://msysgit.googlecode.com/files/Git-1.8.4-preview20130916.exe
+
+MarkdownPad
+
+下载地址：http://www.markdownpad.com/
+
+Git介绍
+
+    Git是目前世界上最先进的分布式版本控制系统
+    可以记录每一次我们的代码改动
+    当我们想回到曾经的代码状态时，git会做到
+    分支更快、更容易。
+    支持离线工作；本地提交可以稍后提交到服务器上
+    有别于svn，Git是分布式版本控制系统
+
+集中版本控制
+
+    集中式版本控制系统，版本库是集中存放在中央服务器的
+    先从中央服务器取得最新的版本，然后才可以工作
+    要再把自己的代码推送给中央服务器
+    集中式版本控制系统必须联网才能工作。
+
+分布式版本控制
+
+    分布式版本控制每个人的电脑上都是一个完整的版本库
+    不需要联网也可以进行版本控制
+    因为每个人电脑都有一套版本库，安全性更高
+    更方便快速的分支管理
+
+分支branch
+
+如果有一个正在运行的项目比如hdphp,如果我们给项目增加一个新功能，如果每天都提交新代码，由于新功能的代码还没有写完，会造成原来正常运行的hdphp都不可以运行。
+这时我们可以创建一个版本新分支，在这个新分支上工作。好处是不破坏master主分支。而且我们鼓励使用Git的分支功能。
+
+获得HDPHP项目
+使用GitHub for windows获得
+
+安装github密码：shxyq888mima
+xyq888@users.noreply.github.com 
+    下载GitHub for windows(下载过程可能会中断，多试几次就可以了)
+    打开网址https://github.com/houdunwangxj/hdphp
+    点击“Clone in Desktop“”按钮,这时会自动通过git for windows 软件下载hdphp项目
+
+使用MsysGit
+
+    下载安装MsysGit
+    使用
+D:\wamp\bin\mysql\mysql5.5.16\bin  环境变量
+
+服务器遇到一个内部错误或者配置错误,无法完成您的请求。

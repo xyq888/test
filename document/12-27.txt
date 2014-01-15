@@ -1,0 +1,87 @@
+商品     分类     评论   用户   定单
+库
+数据表之上管理需要库
+http://bbs.houdunwang.com/thread-58087-1-1.html
+
+1 create database v5;
+show databases;
+2 use v5;
+3 create table news(id int primary key auto_increment,title char(100),content text)charset utf8;
+desc news;
+insert into news set title='标题',content='文章内容';
+
+localhost/v5/db.php 创建应用
+localhost/v5/db.php?c=index&m=index
+c找出INDEX控制器m方法
+NewsControl.class.php专门管理我们写的文章
+
+localhost/v5/db.php?c=news&m=index
+localhost/xyq/db.php?c=news&m=show
+git add -A追加修改的文章到git中
+git commit -m '这次是为什么提交的。'
+git push和远程服务器提交上去
+
+select * from news;
+my.cnf
+mysqld
+skip-grant-tables
+update mysql.user set password=password("abc") where user=root;
+if(IS_POST){
+				$data['title']=$_POST['title'];
+				$data['content']=$_POST['content'];
+				if(M('News')->add($data)){
+					$this->success('添加成功');
+				}else{
+					$this->error('添加失败');
+				}
+			 }
+
+mysql -uroot -p
+git已经提交，查看https://github.com/houdunwangxj/v5 ，增加navicat下载地址。
+使用github同步或使用git pull命令同步
+
+    2013-1-3日 第3课
+
+    使用HDUI快速完成自动验证
+    数据表单令牌安全策略
+    自动完成处理
+    自动验证处理
+    隐藏index.php
+    URL伪静态设置
+    URL路由定义
+    作业安排
+
+课前预习
+
+    预习前2堂课讲的知识
+    看一下后盾网论坛的正则表达式视频教程
+
+使用软件
+
+    Wamp Navicat Sublime
+    Navicat 下载地址： http://www.xiazaiba.com/html/1846.html
+
+    2013-12-27日 第2课
+
+    连接数据库
+    使用HDPHP模板引擎
+    完成数据的CURD
+    文章发表操作
+    文章查询分页操作
+    作业安排
+www.net.com申请域名 备有服务器 有IP地址 dns服务器---登陆万网时填空域名重启 DNSPOD免费的
+不愿意可以买云主机，阿里云月50元北京备案ICP号
+例：www.houdunwang.com/index.php
+访问apache 80端口---》php模块解析代码得到超文本，再返回apache，再给服务器
+mysql存数据方便快速免费
+
+我密码为空
+建库：create v5;
+脚本更新：
+git pull
+git命令行使用
+git add -A追加本地
+git commit -m'这次是为什么提交的'提交修改的动作
+git push向远程服务器提交上去
+
+show create table news;//看是否有UTF8
