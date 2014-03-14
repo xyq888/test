@@ -23,13 +23,13 @@ www.houdunwang/1.html 根本没有PHP参与
 www.houdunwang/1.PHP php module
 伪静态：
 www.houdunwang/1.html xx.php?a=sd&sdf=334 访问动态脚本  url地址访问服务器动态地址
-
+MVC  M--模型  V--界面  C--控制器
 1 : 把表创建出来
 2：创建应用 
 3： 配置好数据库连接
 4 ：执行一次find()
 5: 出现结果！OK!
-
+create table news(id smallint primary key auto_increment,title char(100),content text) charset utf8;
 use v5;
 alter table news rename hd_news;
 create table hd_category(cid smallint primary key auto_increment,cname char(30)) charset utf8;
@@ -38,6 +38,7 @@ use v5;
 show tables;
 DESCRIBE hd_news;
 DESCRIBE hd_category;
+http://localhost/xyq/3/index.php/index/index
 dos命令下：
 cd 3
 mysqldump -uroot -p v5>v5.sql
@@ -66,3 +67,4 @@ INSERT INTO `v5`.`hd_news` (`id`, `title`, `content`) VALUES (NULL, '第四课(2014
 ********************************************************
 http://localhost/xyq/3/
 describe news;
+http://localhost/xyq/3/index.php?c=News&m=content

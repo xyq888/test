@@ -1,0 +1,30 @@
+localhost/xyq/cms/index.php/admin/Login/login入口文件
+
+git.oschina.net/houdunwang/v5
+    2014-2-28日 第7课
+
+        网站整站数据备份与还原操作
+        tag标签功能实现
+        网站友情链接模块实现
+
+
+    文章编辑操作
+    网站配置项模块
+配置项  -》前台-》自定标签（DEDE chanel arclist ) ->安装-》套模板-》数据备份   友情链接  。。。
+乱码处理：
+
+
+PHP用记事本编辑ansi，用SUBLIME打开，代码就乱.
+记事本打开，DWDAKAI 也行，然后保存为UTF8就行了。
+Q("aid")$REQUEST=$_POST $_GET$_COOKIE 
+"__CONTROL_/EDIT/ID/{$A,ID}"
+
+
+http://localhost/v5/cms/index.php/Artice/Artice/edit/id/3   pathinfo方法
+http://localhost/v5/cms/index.php/Artice/Artice/edit/id/3/upload/article/2014/02/21/7251392992199.jpg浏览器自动补齐，所以找不到图。
+不是用相对路径，就不会自动加了，所以加__ROOT__/
+http://localhost/v5/cms/index.php?a=Artice=Artice&m=edit&id=3   get方法就能显示图了。
+
+不加action是刷新当前页。
+
+

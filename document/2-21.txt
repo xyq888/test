@@ -1,0 +1,49 @@
+1. 文章发表与编辑操作
+2. 快速调用UEDITOR编辑器调用
+3. 创建快捷的CMS标签（类似DEDE标签体系）
+本节课内容比较对，大家要把前面几课内容全部掌握，并把代码全部实现。加油吧！！！
+
+    2013-1-21日 第6课
+
+    文章编辑操作
+    网站配置项模块
+
+        文章发表与编辑操作
+        快速调用UEDITOR编辑器调用
+        创建快捷的CMS标签（类似DEDE标签体系）
+
+文章编辑->做企业网站->网站配置模块->数据库备份模块->CMS安装模块
+
+http://localhost/xyq/cms/
+
+public function update(){
+  
+}
+
+public function update _cache(){
+			//$category=$this->all();
+			$category=Data::tree($this->all(),'cname');
+			return F("category",$category);
+		}
+
+d://wamp\www\xyq\cms\Cms\Temp\App\Category\Cache\category.php打开如下：
+7 => 
+  array (
+    'cid' => '18',
+    'cname' => 'php123',
+    'pid' => '0',
+    'keywords' => 'php',
+    'description' => 'php',
+  ),
+  8 => 
+  array (
+    'cid' => '19',
+    'cname' => 'image',
+    'pid' => '18',
+    'keywords' => 'smarty',
+    'description' => 'smarty',
+  ),
+*就是目录的缓存
+
+localhost/xyq/cms/index.php/Category/Category/index
+localhost/xyq/cms/index.php/Article/Article/add

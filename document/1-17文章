@@ -1,0 +1,26 @@
+文章......
+栏目......
+
+栏目表（Table）
+cid栏目名称cname  父级(pid) 关键字（keywords）描述(description)
+
+
+娱乐-》{
+	电影
+	明星-》{体育，电影} 
+}
+
+文章(Article)
+aid
+标题(title)
+栏目(cid)
+关键字keywords）
+描述(description)
+正文(Content)
+查阅次数(click)
+作者(author)
+发布者(uid)
+发表时间(addtime)
+缩略图(thumb)
+来源(source)
+更新时间(updatetime)
